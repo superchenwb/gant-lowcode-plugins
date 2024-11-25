@@ -1,5 +1,5 @@
 import React from 'react';
-import { SVGIcon, IconProps } from '@alilc/lowcode-utils';
+import { SVGIcon, IconProps } from '@gant-lowcode/lowcode-utils';
 
 export const FileIcon = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
-import { project } from '@alilc/lowcode-engine';
+import { project } from '@gant-lowcode/lowcode-engine';
 import { Button, Icon } from '@alifd/next';
-import { PluginProps, IPublicTypeDisposable, IPublicModelPluginContext } from '@alilc/lowcode-types';
+import { PluginProps, IPublicTypeDisposable, IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 
 import './index.scss';
 

@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import { material } from '@alilc/lowcode-engine';
+import { material } from '@gant-lowcode/lowcode-engine';
 
 function addonCombine(metadata: any) {
   const { componentName, configure = {} } = metadata;

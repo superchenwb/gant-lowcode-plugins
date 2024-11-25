@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { IPublicModelPluginContext } from '@alilc/lowcode-types';
+import { IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 import { default as BlockPane } from './pane';
 
 const LowcodePluginCusPlugin = (ctx: IPublicModelPluginContext) => {
@@ -21,7 +21,7 @@ const LowcodePluginCusPlugin = (ctx: IPublicModelPluginContext) => {
     init() {
       // 你可以拿到其他插件暴露的方法和属性
       // const { data, func } = ctx.plugins.pluginA;
-      // func(); 
+      // func();
 
       // console.log(options.name);
 

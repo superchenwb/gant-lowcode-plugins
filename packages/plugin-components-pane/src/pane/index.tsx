@@ -1,9 +1,9 @@
 import React from 'react';
 import { Search } from '@alifd/next';
-import { PluginProps } from '@alilc/lowcode-types';
+import { PluginProps } from '@gant-lowcode/lowcode-types';
 import cls from 'classnames/bind';
 import debounce from 'lodash.debounce';
-import style from './index.module.scss';
+import style from './index.module.less';
 import IconOfPane from '../Icon';
 import Category from '../components/Category';
 import List from '../components/List';
@@ -12,7 +12,7 @@ import Tab from '../components/Tab';
 import ComponentManager from '../store';
 import transform, { getTextReader, SortedGroups, Text, StandardComponentMeta, SnippetMeta, createI18n } from '../utils/transform';
 
-const { material, common, project, event } = window.AliLowCodeEngine || {};
+const { material, common, project, event } = window.GantLowCodeEngine || {};
 
 const isNewEngineVersion = !!material;
 

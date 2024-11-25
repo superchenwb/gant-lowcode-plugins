@@ -1,4 +1,4 @@
-import { common, plugins, config } from '@alilc/lowcode-engine';
+import { common, plugins, config } from '@gant-lowcode/lowcode-engine';
 import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { createFetchHandler } from '@alilc/lowcode-datasource-fetch-handler';

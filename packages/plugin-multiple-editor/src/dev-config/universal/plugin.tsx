@@ -2,10 +2,10 @@ import React from 'react';
 import {
   plugins,
   project,
-} from '@alilc/lowcode-engine';
-import AliLowCodeEngineExt from '@alilc/lowcode-engine-ext';
+} from '@gant-lowcode/lowcode-engine';
+import GantLowCodeEngineExt from '@gant-lowcode/lowcode-engine-ext';
 import { Button } from '@alifd/next';
-import ComponentsPane from '@alilc/lowcode-plugin-components-pane';
+import ComponentsPane from '@gant-lowcode/lowcode-plugin-components-pane';
 import Inject, { injectAssets } from '@alilc/lowcode-plugin-inject';
 
 // 注册到引擎
@@ -102,7 +102,7 @@ export default async function registerPlugins() {
 
   // 设置内置 setter 和事件绑定、插件绑定面板
   const setterRegistry = (ctx: any) => {
-    const { setterMap, pluginMap } = AliLowCodeEngineExt;
+    const { setterMap, pluginMap } = GantLowCodeEngineExt;
     return {
       name: 'ext-setters-registry',
       async init() {

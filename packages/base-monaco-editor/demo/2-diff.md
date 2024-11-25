@@ -6,7 +6,7 @@ order: 2
 ```jsx
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import LowcodePluginBaseMonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import LowcodePluginBaseMonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 
 class App extends Component {
   render() {

@@ -1,4 +1,4 @@
-# @alilc/lowcode-plugin-components-pane
+# @gant-lowcode/lowcode-plugin-components-pane
 
 ## 注意
 

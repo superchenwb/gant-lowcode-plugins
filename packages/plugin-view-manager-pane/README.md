@@ -6,7 +6,7 @@
 
 ### 注册插件
 ```jsx
-import { plugins } from '@alilc/lowcode-engine';
+import { plugins } from '@gant-lowcode/lowcode-engine';
 import PluginUndoRedo from '@alilc/plugin-view-manager-pane';
 
 // 注册到引擎

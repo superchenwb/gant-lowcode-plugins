@@ -278,7 +278,7 @@
             "name": "_pages_",
             "initial": {
               "type": "JSFunction",
-              "value": "(target) => {\n          let url = `/uipass/query/formnav/getFormNavigationListByOrder.json${window.location.search}`\n          if (['localhost', '127.0.0.1', 'a7343369-3834-4e55-9f69-e071f489f979-3333.cloud-ide-router.alibaba-inc.com'].includes(window.location.hostname)) {\n            url = 'mock-pages.json';\n          }\n          (AliLowCodeEngine || VisualEngine).editor.utils.get(url)\n            .then((response) => {\n              target.getProps().setPropValue('_pages_', response);\n            });\n        }"
+              "value": "(target) => {\n          let url = `/uipass/query/formnav/getFormNavigationListByOrder.json${window.location.search}`\n          if (['localhost', '127.0.0.1', 'a7343369-3834-4e55-9f69-e071f489f979-3333.cloud-ide-router.alibaba-inc.com'].includes(window.location.hostname)) {\n            url = 'mock-pages.json';\n          }\n          (GantLowCodeEngine || VisualEngine).editor.utils.get(url)\n            .then((response) => {\n              target.getProps().setPropValue('_pages_', response);\n            });\n        }"
             }
           }
         ],
@@ -21535,7 +21535,7 @@
                 "componentName": "NextText",
                 "props": {
                   "type": "inherit",
-                  "children": "基于 Ali-Lowcode-Engine 快速打造高生产力的低代码研发平台, 基于自然布局体系快速搭建页面"
+                  "children": "基于 Gant-Lowcode-Engine 快速打造高生产力的低代码研发平台, 基于自然布局体系快速搭建页面"
                 }
               }
             }

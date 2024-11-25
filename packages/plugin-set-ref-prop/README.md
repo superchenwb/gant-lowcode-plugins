@@ -8,8 +8,8 @@ plugin for setting ref-id.
 
 ### 注册插件
 ```jsx
-import { plugins } from '@alilc/lowcode-engine';
-import SetRefPropPlugin from '@alilc/lowcode-plugin-set-ref-prop';
+import { plugins } from '@gant-lowcode/lowcode-engine';
+import SetRefPropPlugin from '@gant-lowcode/lowcode-plugin-set-ref-prop';
 
 // 注册到引擎
 plugins.register(SetRefPropPlugin);

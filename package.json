@@ -40,7 +40,7 @@
     }
   },
   "devDependencies": {
-    "f2elint": "^2.0.1",
+    "f2elint": "^4.9.0",
     "husky": "^7.0.4",
     "lerna": "^4.x",
     "typescript": "^3.2.2"
@@ -51,9 +51,6 @@
   "tnpm": {
     "mode": "yarn",
     "lockfile": "enable"
-  },
-  "resolutions": {
-    "@builder/babel-preset-ice": "1.0.1"
   },
   "repository": "https://github.com/alibaba/lowcode-plugins.git"
 }

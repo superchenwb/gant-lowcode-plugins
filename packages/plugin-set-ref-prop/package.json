@@ -1,5 +1,5 @@
 {
-  "name": "@alilc/lowcode-plugin-set-ref-prop",
+  "name": "@gant-lowcode/lowcode-plugin-set-ref-prop",
   "version": "1.0.1",
   "description": "alibaba lowcode editor plugin for setting ref-id",
   "repository": {
@@ -20,18 +20,18 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@alilc/lowcode-types": "^1.0.0",
-    "@alilc/lowcode-utils": "^1.0.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "@gant-lowcode/lowcode-types": "^1.3.7",
+    "@gant-lowcode/lowcode-utils": "1.3.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.3",
-    "@alilc/build-plugin-alt": "^1.0.0",
-    "@alilc/lowcode-engine": "^1.0.0",
-    "@types/react": "^16.9.13",
-    "@types/react-dom": "^16.9.4",
+    "@gant-lowcode/build-plugin-alt": "^1.3.4",
+    "@gant-lowcode/lowcode-engine": "^1.0.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "18.3.1",
     "build-plugin-fusion": "^0.1.22"
   },
   "publishConfig": {

@@ -1,7 +1,7 @@
-import { material, project } from '@alilc/lowcode-engine';
+import { material, project } from '@gant-lowcode/lowcode-engine';
 import { filterPackages } from '@alilc/lowcode-plugin-inject';
 import { Message, Dialog } from '@alifd/next';
-import { TransformStage } from '@alilc/lowcode-types';
+import { TransformStage } from '@gant-lowcode/lowcode-types';
 
 export const loadIncrementalAssets = () => {
   material?.onChangeAssets(() => {

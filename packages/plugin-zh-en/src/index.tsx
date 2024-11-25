@@ -1,6 +1,6 @@
 import { PureComponent } from 'react';
-import { common } from '@alilc/lowcode-engine';
-import { IPublicModelPluginContext, PluginProps } from '@alilc/lowcode-types';
+import { common } from '@gant-lowcode/lowcode-engine';
+import { IPublicModelPluginContext, PluginProps } from '@gant-lowcode/lowcode-types';
 import { intl } from './locale';
 import { IconZh } from './icons/zh';
 import { IconEn } from './icons/en';

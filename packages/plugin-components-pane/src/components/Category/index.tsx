@@ -1,7 +1,7 @@
 import React from 'react';
 import cls from 'classnames/bind';
 import { Animate, Icon } from '@alifd/next';
-import style from './index.module.scss';
+import style from './index.module.less';
 
 const cx = cls.bind(style);
 

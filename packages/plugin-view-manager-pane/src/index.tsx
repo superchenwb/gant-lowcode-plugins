@@ -4,7 +4,7 @@ import {
   IPublicModelResource,
   IPublicTypeSkeletonConfig,
   IPublicTypeContextMenuAction,
-} from '@alilc/lowcode-types';
+} from '@gant-lowcode/lowcode-types';
 import Icon from './icon';
 import { Pane } from './pane';
 import './index.scss';

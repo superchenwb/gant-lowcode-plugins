@@ -5,11 +5,11 @@ module.exports = {
     'react-dom': 'ReactDOM',
     'prop-types': 'PropTypes',
     '@alifd/next': 'Next',
-    '@alilc/lowcode-engine': 'AliLowCodeEngine'
+    '@gant-lowcode/lowcode-engine': 'GantLowCodeEngine'
   },
   plugins: [
     [
-      '@alilc/build-plugin-alt',
+      '@gant-lowcode/build-plugin-alt',
       {
         type: 'plugin',
         // 开启注入调试模式，see：https://www.yuque.com/lce/doc/ulvlkz

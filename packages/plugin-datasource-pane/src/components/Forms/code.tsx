@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { connect } from '@formily/react';
-import MonacoEditor from '@alilc/lowcode-plugin-base-monaco-editor';
+import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 import _noop from 'lodash/noop';
 import { editor } from 'monaco-editor';
 

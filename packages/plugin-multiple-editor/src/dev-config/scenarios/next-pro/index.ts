@@ -1,4 +1,4 @@
-import { init, plugins } from '@alilc/lowcode-engine';
+import { init, plugins } from '@gant-lowcode/lowcode-engine';
 import registerPlugins from './plugin';
 import { scenarioSwitcher } from '../../sample-plugins/scenario-switcher';
 import '../../universal/global.scss';

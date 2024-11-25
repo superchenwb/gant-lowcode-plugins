@@ -2,7 +2,7 @@
   "plugins": [
     "build-plugin-component",
     [
-      "@alilc/build-plugin-alt",
+      "@gant-lowcode/build-plugin-alt",
       {
         "type": "plugin",
         "inject": true,

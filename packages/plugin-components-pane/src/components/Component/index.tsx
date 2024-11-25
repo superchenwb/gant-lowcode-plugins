@@ -1,7 +1,7 @@
 import React from 'react';
 import cls from 'classnames/bind';
 import Svg from '../../Icon/Component';
-import style from './index.module.scss';
+import style from './index.module.less';
 import { Text, StandardComponentMeta } from '../../utils/transform';
 
 const cx = cls.bind(style);

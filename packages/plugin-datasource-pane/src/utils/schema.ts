@@ -3,7 +3,7 @@ import _isPlainObject from 'lodash/isPlainObject';
 import {
   InterpretDataSourceConfig,
 } from '@alilc/lowcode-datasource-types';
-import { isJSFunction } from '@alilc/lowcode-types';
+import { isJSFunction } from '@gant-lowcode/lowcode-types';
 
 export const DATASOURCE_HANDLER_NAME_LIST = [
   'dataHandler',

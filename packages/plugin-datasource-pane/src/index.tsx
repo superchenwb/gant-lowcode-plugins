@@ -4,7 +4,7 @@ import {
   DataSourcePaneImportPlugin,
   DataSourceType,
 } from './types';
-import { IPublicModelPluginContext } from '@alilc/lowcode-types';
+import { IPublicModelPluginContext } from '@gant-lowcode/lowcode-types';
 
 export interface Options {
   importPlugins?: DataSourcePaneImportPlugin[];

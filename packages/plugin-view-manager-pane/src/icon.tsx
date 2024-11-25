@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { SVGIcon, IconProps } from '@alilc/lowcode-utils';
+import { SVGIcon, IconProps } from '@gant-lowcode/lowcode-utils';
 import { intl } from './locale';
 
 export default function Icon(props: {

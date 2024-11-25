@@ -8,7 +8,7 @@ Switch between Simplified Chinese and English for Lowcode Engine.
 
 ### 注册插件
 ```jsx
-import { plugins } from '@alilc/lowcode-engine';
+import { plugins } from '@gant-lowcode/lowcode-engine';
 import PluginZhCn from '@alilc/lowcode-plugin-zh-cn';
 
 // 注册到引擎

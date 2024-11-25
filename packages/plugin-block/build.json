@@ -2,7 +2,7 @@
   "externals": {
     "react": "var window.React",
     "@alifd/next": "var window.Next",
-    "@alilc/lowcode-engine": "var window.AliLowCodeEngine"
+    "@gant-lowcode/lowcode-engine": "var window.GantLowCodeEngine"
   },
   "plugins": [
     "build-plugin-component",

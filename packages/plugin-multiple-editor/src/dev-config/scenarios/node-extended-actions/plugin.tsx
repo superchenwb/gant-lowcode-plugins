@@ -5,18 +5,18 @@ import {
   project,
   setters,
   Node,
-} from '@alilc/lowcode-engine';
-import AliLowCodeEngineExt from '@alilc/lowcode-engine-ext';
+} from '@gant-lowcode/lowcode-engine';
+import GantLowCodeEngineExt from '@gant-lowcode/lowcode-engine-ext';
 import { Icon, Message, Button } from '@alifd/next';
-// import UndoRedoPlugin from '@alilc/lowcode-plugin-undo-redo';
-import ComponentsPane from '@alilc/lowcode-plugin-components-pane';
-import ZhEnPlugin from '@alilc/lowcode-plugin-zh-en';
-// import DataSourcePanePlugin from '@alilc/lowcode-plugin-datasource-pane';
-import SchemaPlugin from '@alilc/lowcode-plugin-schema';
-// import CodeEditor from '@alilc/lowcode-plugin-code-editor';
-import ManualPlugin from '@alilc/lowcode-plugin-manual';
+// import UndoRedoPlugin from '@gant-lowcode/lowcode-plugin-undo-redo';
+import ComponentsPane from '@gant-lowcode/lowcode-plugin-components-pane';
+import ZhEnPlugin from '@gant-lowcode/lowcode-plugin-zh-en';
+// import DataSourcePanePlugin from '@gant-lowcode/lowcode-plugin-datasource-pane';
+import SchemaPlugin from '@gant-lowcode/lowcode-plugin-schema';
+// import CodeEditor from '@gant-lowcode/lowcode-plugin-code-editor';
+import ManualPlugin from '@gant-lowcode/lowcode-plugin-manual';
 import Inject, { injectAssets } from '@alilc/lowcode-plugin-inject';
-import SimulatorResizer from '@alilc/lowcode-plugin-simulator-select';
+import SimulatorResizer from '@gant-lowcode/lowcode-plugin-simulator-select';
 
 // 注册到引擎
 import TitleSetter from '@alilc/lowcode-setter-title';
@@ -152,7 +152,7 @@ export default async function registerPlugins() {
 
   // 设置内置 setter 和事件绑定、插件绑定面板
   const setterRegistry = (ctx: any) => {
-    const { setterMap, pluginMap } = AliLowCodeEngineExt;
+    const { setterMap, pluginMap } = GantLowCodeEngineExt;
     return {
       name: 'ext-setters-registry',
       async init() {

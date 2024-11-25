@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import { Message, Button } from '@alifd/next';
-import { InterpretDataSourceConfig } from '@alilc/lowcode-types';
-import { Project, Event, Setters } from '@alilc/lowcode-shell';
+import { InterpretDataSourceConfig } from '@gant-lowcode/lowcode-types';
+import { Project, Event, Setters } from '@gant-lowcode/lowcode-shell';
 import Logger from 'zen-logger';
 import _get from 'lodash/get';
 import _set from 'lodash/set';
@@ -26,7 +26,7 @@ import { isSchemaValid, correctSchema } from '../utils/schema';
 import { createStateService } from '../utils/stateMachine';
 import { DataSourcePaneContext } from '../utils/panel-context';
 import { mergeTwoObjectListByKey } from '../utils/misc';
-import { common } from '@alilc/lowcode-engine';
+import { common } from '@gant-lowcode/lowcode-engine';
 
 import './index.scss';
 

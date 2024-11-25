@@ -39,8 +39,8 @@ function setupConfig() {
 # 使用方式
 
 ```
-import { plugins } from '@alilc/lowcode-engine';
-import BlockPane from '@alilc/lowcode-plugin-block';
+import { plugins } from '@gant-lowcode/lowcode-engine';
+import BlockPane from '@gant-lowcode/lowcode-plugin-block';
 
 await plugins.register(BlockPane);
 ```

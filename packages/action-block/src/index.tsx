@@ -1,8 +1,10 @@
 import * as React from 'react';
 import { default as html2canvas } from 'html2canvas';
-import { Node, config, event } from '@alilc/lowcode-engine';
-import { Dialog, Form, Input } from '@alifd/next';
+import { Node, config, event } from '@gant-lowcode/lowcode-engine';
+import { Modal, Form, Input } from 'antd';
 import './index.scss';
+
+const { info } = Modal;
 
 const FormItem = Form.Item;
 
@@ -49,7 +51,7 @@ const SaveAsBlock = (props: SaveAsBlockProps) => {
       schema: JSON.stringify(schema),
       screenshot: src,
     });
-    dialog?.hide();
+    dialog?.destroy();
     event.emit('BlockChanged');
   }
 
@@ -107,8 +109,7 @@ export default {
     title: '新增',
     action(node: Node) {
       // console.log('node: ', node);
-      dialog = Dialog.show({
-        v2: true,
+      dialog = info({
         title: "保存为区块",
         content: <SaveAsBlock node={node} />,
         footer: false

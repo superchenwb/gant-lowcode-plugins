@@ -46,7 +46,7 @@ import {
   DataSourceTypeFetch,
   DataSourceTypeJsonp,
   DataSourceTypeMtop,
-} from '@alilc/lowcode-plugin-datasource-pane';
+} from '@gant-lowcode/lowcode-plugin-datasource-pane';
 ```
 
 ## 如何定制

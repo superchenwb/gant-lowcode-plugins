@@ -1,4 +1,4 @@
-# @alilc/lowcode-plugin-resource-tabs [![][npm-image]][npm-url]
+# @gant-lowcode/lowcode-plugin-resource-tabs [![][npm-image]][npm-url]
 
 
 ---
@@ -7,8 +7,8 @@
 
 ### 注册插件
 ```jsx
-import { plugins } from '@alilc/lowcode-engine';
-import PluginResourceTabs from '@alilc/lowcode-plugin-resource-tabs';
+import { plugins } from '@gant-lowcode/lowcode-engine';
+import PluginResourceTabs from '@gant-lowcode/lowcode-plugin-resource-tabs';
 
 // 注册到引擎
 plugins.register(PluginResourceTabs);

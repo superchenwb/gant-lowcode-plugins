@@ -1,4 +1,4 @@
-import { init, plugins } from '@alilc/lowcode-engine';
+import { init, plugins } from '@gant-lowcode/lowcode-engine';
 import { createFetchHandler } from '@alilc/lowcode-datasource-fetch-handler';
 import registerPlugins from '../../universal/plugin';
 import { scenarioSwitcher } from '../../sample-plugins/scenario-switcher';
