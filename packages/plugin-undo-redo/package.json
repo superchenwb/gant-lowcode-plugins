@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-undo-redo",
-  "version": "1.0.1",
+  "version": "2.1.0",
   "description": "alibaba lowcode editor undo redo plugin",
   "files": [
     "es",
@@ -18,8 +18,8 @@
     "editor"
   ],
   "dependencies": {
-    "@gant-lowcode/lowcode-utils": "^1.0.0",
     "@gant-lowcode/lowcode-types": "^1.1.9",
+    "@gant-lowcode/lowcode-utils": "^1.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

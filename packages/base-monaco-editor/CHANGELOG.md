@@ -1,3 +1,35 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 2.1.0 (2024-11-25)
+
+
+### Bug Fixes
+
+* 🐛 修复数据源参数若干问题 ([ec47591](https://github.com/alibaba/lowcode-plugins/commit/ec4759101f2b5af808b7da88fd852f7418abd1a2))
+* 修改包名 ([240b39c](https://github.com/alibaba/lowcode-plugins/commit/240b39ccf025ad26d79591764b2eaf772c0d9960))
+* 修正 @alilc/lowcode-plugin-base-monaco-editor 的依赖 ([ad948bd](https://github.com/alibaba/lowcode-plugins/commit/ad948bd2d619ccfce0683143922b9a2c1060194b))
+* 修正 bug ([0d9cec3](https://github.com/alibaba/lowcode-plugins/commit/0d9cec320747ed059aa36695c4a9f894b2437a5d))
+* 修正 ve-code-editor 和 UIPaaS 的冲突 ([800f32e](https://github.com/alibaba/lowcode-plugins/commit/800f32e88b6963f6a5b18ccc0806d11b7f333a57))
+
+
+### Features
+
+* 补充 changelog ([262ab7b](https://github.com/alibaba/lowcode-plugins/commit/262ab7b274eedaaf6166b94f4da0b4eac7e36575))
+* 添加 controller ([ff7a035](https://github.com/alibaba/lowcode-plugins/commit/ff7a0351eb46e5cb4e0bf776069e8b9a30373e4a))
+* add overrideServices props ([151449c](https://github.com/alibaba/lowcode-plugins/commit/151449c5bb6dffd96b9bafb6db73c6f959e1cfb4))
+* add worskapces plugins ([251534c](https://github.com/alibaba/lowcode-plugins/commit/251534cdff6075acfa071cb881e635c1e1fb68de))
+* bump into next version ([b655d2d](https://github.com/alibaba/lowcode-plugins/commit/b655d2d77944c535fd27266f2a505d0fb0c61b52))
+* bump into stable version ([e78fe80](https://github.com/alibaba/lowcode-plugins/commit/e78fe80a36dc5c6d30245f3054625d9abc5c506e))
+* monaco单例化 ([58231ea](https://github.com/alibaba/lowcode-plugins/commit/58231ea663cdbb1726a05f0b19a0f32c66df93a7))
+* support singleton mode / upgrade linkage ([598a43e](https://github.com/alibaba/lowcode-plugins/commit/598a43ef153a4e96998c1ff67bbd599d24b9eae0))
+
+
+
+
+
 ## 1.1.1
 
 - 避免 UIPaaS 中的样式冲突，将 `.ve-code-control` 替换为 `.lc-code-control`

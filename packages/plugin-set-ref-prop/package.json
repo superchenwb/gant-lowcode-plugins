@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-set-ref-prop",
-  "version": "1.0.1",
+  "version": "2.1.0",
   "description": "alibaba lowcode editor plugin for setting ref-id",
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-zh-en",
-  "version": "1.0.0",
+  "version": "2.1.0",
   "description": "alibaba lowcode editor zhong english plugin",
   "files": [
     "es",

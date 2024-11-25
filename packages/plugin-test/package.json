@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-test",
-  "version": "1.0.2",
+  "version": "2.1.0",
   "description": "alibaba lowcode editor test plugin",
   "files": [
     "es",
@@ -18,21 +18,21 @@
     "editor"
   ],
   "dependencies": {
-    "@gant-lowcode/lowcode-utils": "^1.0.0",
-    "@gant-lowcode/lowcode-types": "^1.1.9"
+    "@gant-lowcode/lowcode-types": "^1.1.9",
+    "@gant-lowcode/lowcode-utils": "^1.0.0"
   },
   "devDependencies": {
     "@alib/build-scripts": "^0.1.3",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@gant-lowcode/build-plugin-alt": "^1.3.4",
     "@gant-lowcode/lowcode-engine": "^1.0.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "18.3.1",
     "build-plugin-fusion": "^0.1.22",
     "build-plugin-moment-locales": "^0.1.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "react": "^18.3.1",
-    "webpack": "^5.64.4",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "webpack": "^5.64.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

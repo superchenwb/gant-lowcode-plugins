@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-simulator-select",
-  "version": "1.0.4",
+  "version": "2.1.0",
   "description": "画布切换",
   "main": "lib/index.js",
   "scripts": {

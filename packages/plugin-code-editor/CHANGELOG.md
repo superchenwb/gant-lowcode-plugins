@@ -1,3 +1,35 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# 2.1.0 (2024-11-25)
+
+
+### Bug Fixes
+
+* 修复从 schema2code 时, state 恢复错误的问题 ([9bdc7fd](https://github.com/alibaba/lowcode-plugins/commit/9bdc7fd1033169314d0b8cfefdd6c9c0f41a82e8))
+* 修改包名 ([240b39c](https://github.com/alibaba/lowcode-plugins/commit/240b39ccf025ad26d79591764b2eaf772c0d9960))
+* 移除 skipDemo 的命令行参数 ([982f9b5](https://github.com/alibaba/lowcode-plugins/commit/982f9b55d951893078156bb7cb063731a2284d2a))
+* 源码面板高度塌陷的 bug ([9e7fd0d](https://github.com/alibaba/lowcode-plugins/commit/9e7fd0d786894e58ce6714446e3ad10547e4b735))
+* **code-editor:** fixed @babel/preset-env version (7.22.9) ([9fff9d6](https://github.com/alibaba/lowcode-plugins/commit/9fff9d69b5d6eeafccd7d8091abc3b68ec332c08)), closes [/github.com/babel/babel/commit/6b91b9b2af22251fe04f0b6f1d8f74c18a414a10#diff-2281f56422073bffd4b039230999ad8fe300fa0ce0fe9af45580695488c82f68](https://github.com//github.com/babel/babel/commit/6b91b9b2af22251fe04f0b6f1d8f74c18a414a10/issues/diff-2281f56422073bffd4b039230999ad8fe300fa0ce0fe9af45580695488c82f68)
+* **plugin-code-editor:** add function out of class ([ab81d1b](https://github.com/alibaba/lowcode-plugins/commit/ab81d1b7a08fbd0535168c8cc0a8e601111fecd2))
+* **plugin-code-editor:** change to use skeleton.onShowPanel and skeleton.onHidePanel ([6c6234b](https://github.com/alibaba/lowcode-plugins/commit/6c6234b28a48d37125382b9feb2d929c2163301a))
+* remove plugin-code-editor ErrorBoundary css-module ([60e5076](https://github.com/alibaba/lowcode-plugins/commit/60e50769747404d6dfdb3732db34f843e8bec84b))
+* schema export issue ([02ccfcc](https://github.com/alibaba/lowcode-plugins/commit/02ccfcca9b9eac51414f612077c072ea551cd654))
+* uipass compatibility ([4a807e6](https://github.com/alibaba/lowcode-plugins/commit/4a807e6e97bc5f8f72c448ce8c7e07f5ea176d23))
+* update dependencies to visible packages ([fafbe44](https://github.com/alibaba/lowcode-plugins/commit/fafbe447030dd33784fad784942116be3c4f9fbc))
+
+
+### Features
+
+* add plugin plugin-set-ref-prop ([0982f9f](https://github.com/alibaba/lowcode-plugins/commit/0982f9f9183d7f3f55a8f15d43cf4fba12b36104))
+* add worskapces plugins ([251534c](https://github.com/alibaba/lowcode-plugins/commit/251534cdff6075acfa071cb881e635c1e1fb68de))
+
+
+
+
+
 ## 1.0.5 / 2022-11-28
 
 - Fix 修正 UIPaaS 中针对 source 的异常提示问题

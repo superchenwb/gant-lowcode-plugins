@@ -13,5 +13,5 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
+* add plugin and action for block management ([302ee4b](https://github.com/alibaba/lowcode-plugins/commit/302ee4be1aa3ee3d8aed382abf724e02b8972c60))
 * add plugin plugin-set-ref-prop ([0982f9f](https://github.com/alibaba/lowcode-plugins/commit/0982f9f9183d7f3f55a8f15d43cf4fba12b36104))
-* add worskapces plugins ([251534c](https://github.com/alibaba/lowcode-plugins/commit/251534cdff6075acfa071cb881e635c1e1fb68de))

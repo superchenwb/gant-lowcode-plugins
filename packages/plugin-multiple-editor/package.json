@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-multiple-editor",
-  "version": "0.2.0",
+  "version": "2.1.0",
   "main": "es/index.js",
   "license": "MIT",
   "private": false,
@@ -24,22 +24,13 @@
     "release": "fast-publish"
   },
   "dependencies": {
-    "@gant-lowcode/lowcode-types": "^1.0.3",
-    "@babel/types": "^7.16.0"
+    "@babel/types": "^7.16.0",
+    "@gant-lowcode/lowcode-types": "^1.0.3"
   },
   "devDependencies": {
     "@alifd/next": "^1.25.29",
     "@alilc/lowcode-datasource-fetch-handler": "^1.0.1",
-    "@gant-lowcode/lowcode-editor-core": "1.3.7",
-    "@gant-lowcode/lowcode-engine": "1.3.7",
-    "@gant-lowcode/lowcode-engine-ext": "1.0.7",
-    "@gant-lowcode/lowcode-plugin-base-monaco-editor": "1.0.0",
-    "@gant-lowcode/lowcode-plugin-components-pane": "^2.0.2",
     "@alilc/lowcode-plugin-inject": "^1.0.0",
-    "@gant-lowcode/lowcode-plugin-manual": "^1.0.3",
-    "@gant-lowcode/lowcode-plugin-schema": "^1.0.1",
-    "@gant-lowcode/lowcode-plugin-simulator-select": "^1.0.0",
-    "@gant-lowcode/lowcode-plugin-zh-en": "^1.0.0",
     "@alilc/lowcode-react-renderer": "^1.0.0",
     "@alilc/lowcode-setter-behavior": "^1.0.0",
     "@alilc/lowcode-setter-title": "^1.0.2",
@@ -47,6 +38,15 @@
     "@babel/cli": "^7.17.6",
     "@babel/core": "^7.16.0",
     "@babel/standalone": "^7.17.8",
+    "@gant-lowcode/lowcode-editor-core": "1.3.7",
+    "@gant-lowcode/lowcode-engine": "1.3.7",
+    "@gant-lowcode/lowcode-engine-ext": "1.0.7",
+    "@gant-lowcode/lowcode-plugin-base-monaco-editor": "^2.1.0",
+    "@gant-lowcode/lowcode-plugin-components-pane": "^2.1.0",
+    "@gant-lowcode/lowcode-plugin-manual": "^2.1.0",
+    "@gant-lowcode/lowcode-plugin-schema": "^2.1.0",
+    "@gant-lowcode/lowcode-plugin-simulator-select": "^2.1.0",
+    "@gant-lowcode/lowcode-plugin-zh-en": "^2.1.0",
     "@monaco-editor/loader": "^1.3.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",

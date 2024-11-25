@@ -1,7 +1,7 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-code-editor",
   "author": "59174526@qq.com & humphry.huang9@gmail.com",
-  "version": "1.0.9",
+  "version": "2.1.0",
   "description": "CodeEditor",
   "files": [
     "es",
@@ -22,7 +22,6 @@
   },
   "dependencies": {
     "@alifd/next": "^1.25.13",
-    "@gant-lowcode/lowcode-plugin-base-monaco-editor": "^1.0.0",
     "@babel/core": "^7.15.8",
     "@babel/parser": "^7.15.8",
     "@babel/preset-env": "7.22.9",
@@ -30,6 +29,7 @@
     "@babel/standalone": "^7.15.8",
     "@babel/traverse": "^7.15.4",
     "@babel/types": "^7.15.6",
+    "@gant-lowcode/lowcode-plugin-base-monaco-editor": "^2.1.0",
     "babel-plugin-transform-remove-strict-mode": "^0.0.2",
     "classnames": "^2.3.1",
     "js-beautify": "^1.14.0",
@@ -40,11 +40,11 @@
   "devDependencies": {
     "@alib/build-scripts": "^0.1.32",
     "@alifd/theme-lowcode-light": "^0.2.1",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@gant-lowcode/build-plugin-alt": "^1.3.4",
     "@gant-lowcode/lowcode-engine": "^1.0.0",
     "@gant-lowcode/lowcode-shell": "^1.0.0",
     "@gant-lowcode/lowcode-types": "^1.0.0",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@types/babel-types": "^7.0.9",
     "@types/babel__preset-env": "^7.9.2",
     "@types/react": "^18.3.12",
