@@ -8,6 +8,10 @@
     "url": "https://github.com/alibaba/lowcode-plugins.git",
     "directory": "packages/action-block"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "scripts": {
     "start": "build-scripts start",
     "build": "build-scripts build",

@@ -22,6 +22,10 @@
     "build-plugin-fusion": "^0.1.22",
     "build-plugin-moment-locales": "^0.1.3"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "homepage": "https://unpkg.com/@gant-lowcode/lowcode-plugin-block@1.0.0-beta.0/build/index.html",
   "repository": {
     "type": "git",
