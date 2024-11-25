@@ -170,6 +170,7 @@ const TreeNode: FC<TreeNodeProps> = ({
               v2
               trigger={<Icon size={10} type="help" style={{ marginLeft: 4 }} />}
               placement="rt"
+              triggerType="hover"
             >
               <span className="help-tooltips">
                 内置模块，不可操作文件，内容修改不会影响最终结果

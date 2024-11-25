@@ -81,6 +81,7 @@ function reducer(state: StoreState, action: { type: string; payload: any }) {
 export const EditorProvider: FC<{
   softSave?: boolean;
   mode?: 'single' | 'multiple';
+  children?: React.ReactNode;
 }> = (props) => {
   const { softSave, mode } = props;
   const fileMap = useMemo(
