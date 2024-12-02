@@ -18,7 +18,6 @@
   "scripts": {
     "start": "build-scripts start",
     "build": "build-scripts build",
-    "prepublishOnly": "npm run build",
     "eslint": "eslint --cache --ext .js,.jsx ./",
     "eslint:fix": "npm run eslint -- --fix",
     "stylelint": "stylelint \"**/*.{css,scss,less}\"",
@@ -63,10 +62,11 @@
       "commit-msg": "f2elint commit-msg-scan"
     }
   },
-  "homepage": "https://unpkg.com/@gant-lowcode/lowcode-plugin-base-monaco-editor@2.1.0/build/index.html",
+  "homepage": "https://unpkg.com/@gant-lowcode/lowcode-plugin-base-monaco-editor@2.1.2/build/index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/alibaba/lowcode-plugins.git",
     "directory": "packages/base-monaco-editor"
-  }
+  },
+  "gitHead": "1ae99a0ac2dcc6e8c563d51e4a75a9a5b501ee2f"
 }

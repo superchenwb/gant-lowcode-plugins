@@ -26,10 +26,11 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "homepage": "https://unpkg.com/@gant-lowcode/lowcode-plugin-block@2.1.0/build/index.html",
+  "homepage": "https://unpkg.com/@gant-lowcode/lowcode-plugin-block@2.1.2/build/index.html",
   "repository": {
     "type": "git",
     "url": "https://github.com/alibaba/lowcode-plugins.git",
     "directory": "packages/plugin-block"
-  }
+  },
+  "gitHead": "1ae99a0ac2dcc6e8c563d51e4a75a9a5b501ee2f"
 }

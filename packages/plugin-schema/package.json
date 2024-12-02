@@ -42,5 +42,6 @@
     "type": "git",
     "url": "https://github.com/alibaba/lowcode-plugins.git",
     "directory": "packages/plugin-schema"
-  }
+  },
+  "gitHead": "1ae99a0ac2dcc6e8c563d51e4a75a9a5b501ee2f"
 }
