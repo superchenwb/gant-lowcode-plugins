@@ -1,7 +1,7 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-schema",
   "author": "alvarto",
-  "version": "2.1.0",
+  "version": "2.1.2",
   "description": "Show schema in lowcode editor",
   "files": [
     "es",
@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@alifd/next": "^1.25.13",
-    "@gant-lowcode/lowcode-plugin-base-monaco-editor": "^2.1.0",
+    "@gant-lowcode/lowcode-plugin-base-monaco-editor": "^2.1.2",
     "classnames": "^2.3.1",
     "lodash": "^4.17.21",
     "react": "^18.3.1",
