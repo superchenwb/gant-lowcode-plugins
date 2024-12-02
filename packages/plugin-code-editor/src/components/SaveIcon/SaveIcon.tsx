@@ -3,7 +3,7 @@ import { Button } from '@alifd/next';
 
 import { WORDS } from '../../config';
 
-import './SaveIcon.less';
+import './SaveIcon.css';
 
 export interface ErrorTipProps {
   onClick: () => void;

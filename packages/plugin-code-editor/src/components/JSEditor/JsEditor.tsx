@@ -9,7 +9,7 @@ import { transformJS, transformAst, stateParser, getMethods } from '../../utils'
 import { FunctionEventParams } from '../../types';
 import { IEditorInstance, IMonacoInstance } from '@gant-lowcode/lowcode-plugin-base-monaco-editor/lib/helper';
 
-import './JsEditor.less';
+import './JsEditor.css';
 
 const LIFECYCLES_FUNCTION_MAP = {
   react: ['constructor', 'render', 'componentDidMount', 'componentDidUpdate', 'componentWillUnmount', 'componentDidCatch'],

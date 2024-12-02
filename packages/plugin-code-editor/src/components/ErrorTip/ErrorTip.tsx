@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './ErrorTip.less';
+import './ErrorTip.css';
 
 export interface ErrorTipProps {
   errorInfo: string;

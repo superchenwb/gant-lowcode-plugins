@@ -29,5 +29,5 @@
     "@alib/build-scripts": "^0.1.32",
     "build-plugin-component": "^1.10.0"
   },
-  "homepage": "https://unpkg.com/@gant-lowcode/action-block@1.0.1/build/index.html"
+  "homepage": "https://unpkg.com/@gant-lowcode/action-block@2.1.0/build/index.html"
 }

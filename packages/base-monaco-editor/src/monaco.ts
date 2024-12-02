@@ -3,6 +3,8 @@ import loader, { Monaco } from '@monaco-editor/loader';
 import isEqual from 'lodash/isEqual';
 import { controller, EditorMeta } from './controller';
 
+export type IMonacoInstance = Monaco;
+
 export const getSingletonMonaco = (() => {
   let monaco: Monaco;
   let prevOptions: any;

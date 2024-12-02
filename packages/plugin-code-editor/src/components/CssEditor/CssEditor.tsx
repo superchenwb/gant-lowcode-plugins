@@ -6,7 +6,7 @@ import { IEditorInstance } from '@gant-lowcode/lowcode-plugin-base-monaco-editor
 
 import { TAB_KEY } from '../../config';
 
-import './CssEditor.less';
+import './CssEditor.css';
 import { beautifyCSS } from '../../utils';
 
 export interface CssEditorProps {

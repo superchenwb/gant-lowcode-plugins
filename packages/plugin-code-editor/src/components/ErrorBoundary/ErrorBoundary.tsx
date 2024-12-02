@@ -1,7 +1,7 @@
 import React, { Component, ErrorInfo, Suspense } from 'react';
 import { Loading, Message, Button } from '@alifd/next';
 
-import './ErrorBoundary.less';
+import './ErrorBoundary.css';
 
 interface ErrorBoundaryProps {
   onCatch?: (error: Error, info: ErrorInfo) => void;
