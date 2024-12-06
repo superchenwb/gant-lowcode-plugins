@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.3](https://github.com/alibaba/lowcode-plugins/compare/v2.1.2...v2.1.3) (2024-12-06)
+
+
+### Bug Fixes
+
+* css中存在错误注释 ([ae2ebf7](https://github.com/alibaba/lowcode-plugins/commit/ae2ebf77f711177a42b4c9fa4edc13d8191f18ec))
+* 升级 ([875b4a0](https://github.com/alibaba/lowcode-plugins/commit/875b4a0d3c2a073eef503c1b581cfb87d9f185ba))
+
+
+
+
+
 ## [2.1.2](https://github.com/alibaba/lowcode-plugins/compare/v2.1.1...v2.1.2) (2024-12-02)
 
 

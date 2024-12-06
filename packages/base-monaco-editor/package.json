@@ -1,6 +1,6 @@
 {
   "name": "@gant-lowcode/lowcode-plugin-base-monaco-editor",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "代码编辑组件，monaco-editor 的低代码适配封装",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

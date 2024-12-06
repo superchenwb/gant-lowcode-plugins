@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.1.3](https://github.com/alibaba/lowcode-plugins/compare/v2.1.2...v2.1.3) (2024-12-06)
+
+
+### Bug Fixes
+
+* 升级 ([875b4a0](https://github.com/alibaba/lowcode-plugins/commit/875b4a0d3c2a073eef503c1b581cfb87d9f185ba))
+
+
+
+
+
 ## [2.1.2](https://github.com/alibaba/lowcode-plugins/compare/v2.1.1...v2.1.2) (2024-12-02)
 
 **Note:** Version bump only for package @gant-lowcode/lowcode-plugin-schema
