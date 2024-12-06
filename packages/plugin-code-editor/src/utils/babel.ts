@@ -1,7 +1,5 @@
 import {
-  transformFromAst as babelTransformFromAst,
   transform as babelTransform,
-  buildExternalHelpers as babelBuildExternalHelpers,
 } from '@babel/core';
 import presetEnv from '@babel/preset-env';
 import presetReact from '@babel/preset-react';

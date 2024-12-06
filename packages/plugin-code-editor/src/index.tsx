@@ -38,7 +38,7 @@ const plugin = (ctx: IPublicModelPluginContext) => {
 
       codeEditorDock && codeEditorDock.disable();
       project.onSimulatorRendererReady(() => {
-        codeEditorDock.enable();
+        codeEditorDock?.enable();
       });
     },
   };

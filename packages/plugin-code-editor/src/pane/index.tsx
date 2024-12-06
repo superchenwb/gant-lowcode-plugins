@@ -1,14 +1,16 @@
 import React, { useEffect, useState, useMemo, memo, useRef } from 'react';
-import { Dialog, Message } from '@alifd/next';
+import { Dialog } from '@alifd/next';
+import { message, Modal } from 'antd';
 import { JsEditor, CssEditor } from '../components';
 import { schema2JsCode, schema2CssCode } from '../utils';
 import { WORDS, TAB_KEY } from '../config';
 import { common } from '@gant-lowcode/lowcode-engine';
-import { FunctionEventParams } from '../types';
-import { Project, Event, Skeleton } from '@gant-lowcode/lowcode-shell';
-import '@gant-lowcode/lowcode-plugin-base-monaco-editor/lib/style';
+import type { FunctionEventParams } from '../types';
+import type { Project, Event, Skeleton } from '@gant-lowcode/lowcode-shell';
 import { SaveIcon } from '../components/SaveIcon';
+import '@gant-lowcode/lowcode-plugin-base-monaco-editor/lib/style';
 import './index.css';
+
 interface CodeEditorPaneProps {
   project: Project;
   event: Event;
@@ -51,7 +53,7 @@ export const CodeEditorPane = memo(({ project, event, skeleton }: CodeEditorPane
 
         setSchema(currentSchema);
 
-        Message.success({
+        message.success({
           content: WORDS.saveSuccess,
           duration: 1000,
         });

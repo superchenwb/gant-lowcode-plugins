@@ -30,13 +30,15 @@
   }
 
   .tab-with-error {
-    color: red!important;
+    color: red !important;
   }
   .tab-with-error:before {
-    border-top-color: red!important;
+    border-top-color: red !important;
   }
 
-  // hide status bar, @see https://stackoverflow.com/questions/62383930/override-monaco-editor-hover-widget-style-to-hide-peek-problem
+  /**
+   hide status bar, @see https://stackoverflow.com/questions/62383930/override-monaco-editor-hover-widget-style-to-hide-peek-problem
+  */
   div.hover-row.status-bar {
     display: none !important;
   }

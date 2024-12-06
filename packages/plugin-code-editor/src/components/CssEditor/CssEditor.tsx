@@ -1,11 +1,8 @@
 import React, { PureComponent } from 'react';
 import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
 import { Tab } from '@alifd/next';
-
 import { IEditorInstance } from '@gant-lowcode/lowcode-plugin-base-monaco-editor/lib/helper';
-
 import { TAB_KEY } from '../../config';
-
 import './CssEditor.css';
 import { beautifyCSS } from '../../utils';
 

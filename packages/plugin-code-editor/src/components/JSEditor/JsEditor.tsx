@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import MonacoEditor from '@gant-lowcode/lowcode-plugin-base-monaco-editor';
-import { Tab, Button, Dialog } from '@alifd/next';
+import { Tab, Dialog } from '@alifd/next';
+import { Tabs, Modal } from 'antd';
 import { ErrorTip } from '../ErrorTip';
 
 import { defaultBabelConfig, defaultCode, WORDS, TAB_KEY } from '../../config';
